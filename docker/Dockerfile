@@ -2,9 +2,8 @@ FROM python:3
 
 RUN git clone https://github.com/XLSForm/pyxform.git
 WORKDIR "/pyxform"
-RUN git checkout 85582ef0f65c07e0062835add92821787c5c8d44
-RUN python setup.py develop
-RUN pip install -r requirements.pip
+RUN git checkout 66c0d5b9ad4a34bce47fe52a60e4366c19ee457c
+RUN pip install -r dev_requirements.pip
 
 WORKDIR "/"
 RUN rm -r pyxform
