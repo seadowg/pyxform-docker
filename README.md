@@ -1,6 +1,6 @@
 # pyxform-docker
 
-Docker image for pyxform development.
+Docker image for [pyxform](https://github.com/XLSForm/pyxform) development.
 
 ## Using
 
